@@ -10,7 +10,7 @@ describe('Lunch Application', () => {
 
       //validating a successful login 
       cy.get('#showOverview > .title').should('be.visible', 'Accounts Overview')
-      cy.getAllCookies
+     
   })
         
   })
