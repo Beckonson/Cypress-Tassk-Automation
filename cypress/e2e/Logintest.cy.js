@@ -1,5 +1,5 @@
 describe('Lunch Application', () => {
-
+    // add to before()
   it('Naviating to test application', () => {
       cy.visit('https://parabank.parasoft.com/parabank/index.htm')
 
@@ -10,7 +10,7 @@ describe('Lunch Application', () => {
 
       //validating a successful login 
       cy.get('#showOverview > .title').should('be.visible', 'Accounts Overview')
-
+      
   })
         
   })
